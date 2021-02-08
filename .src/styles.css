@@ -1,0 +1,17 @@
+/* ./.src/styles.css */
+@tailwind base;
+@tailwind components;
+
+import "@fontsource/lato/300.css"
+import "@fontsource/lato/300-italic.css"
+import "@fontsource/lato/700.css"
+
+body {
+  font-family: sans;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+@tailwind utilities;
